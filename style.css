@@ -2,6 +2,9 @@
     box-sizing: border-box;
     margin: 0px;
 }
+html{
+    font-family: "Roboto", sans-serif;
+}
 header{
     background-color: darkslategray;
     padding: 30px;
@@ -15,8 +18,17 @@ footer{
 nav{
     background-color: orangered;
 }
+body{
+    display: flex;
+    margin: 0;
+    flex-direction: column;
+    min-height: 100vh;
+}
 .main{
     display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+
 }
 .sidebar{
     padding: 50px;
