@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+}
+header{
+    background-color: darkslategray;
+    padding: 30px;
+    color: white;
+}
+footer{
+    background-color: gray;
+    padding: 30px;
+    color: white;
+}
+nav{
+    background-color: orangered;
+}
+.main{
+    display: flex;
+}
+.sidebar{
+    padding: 50px;
+    color: white;
+}
+.article{
+    text-align: justify;
+    width: 100%;
+    background-color: white;
+    color: black;
+    padding: 50px;
+    }
+    
